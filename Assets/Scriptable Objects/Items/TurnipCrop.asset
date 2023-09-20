@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eea9feec5653d747869c1e0ad814ea8, type: 3}
+  m_Name: TurnipCrop
+  m_EditorClassIdentifier: 
+  itemName: Turnip
+  description: A freshly grown turnip.
+  itemID: 3
+  buyValue: 150
+  sellValue: 100
+  energyRestored: 5
+  itemIcon: {fileID: 314323312, guid: ba4eabcf13a972944ae2497aa8cf81ae, type: 3}
+  itemIconTexture2D: {fileID: 2800000, guid: ba4eabcf13a972944ae2497aa8cf81ae, type: 3}
+  itemIconPixelsPerUnit: 100
+  itemIconRect:
+    serializedVersion: 2
+    x: 64
+    y: 992
+    width: 16
+    height: 16

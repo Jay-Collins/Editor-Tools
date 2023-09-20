@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc80df852a8de047877fb322b03db27, type: 3}
+  m_Name: MelonCrop
+  m_EditorClassIdentifier: 
+  cropName: Melon
+  cropStage1Sprite: {fileID: -974122144, guid: b2b2b198e37eba347bd8fd56bcdc6271, type: 3}
+  cropStage2Sprite: {fileID: 1000432069, guid: b2b2b198e37eba347bd8fd56bcdc6271, type: 3}
+  cropStage3Sprite: {fileID: -1304996066, guid: b2b2b198e37eba347bd8fd56bcdc6271, type: 3}
+  cropStage4Sprite: {fileID: 427505739, guid: b2b2b198e37eba347bd8fd56bcdc6271, type: 3}
+  cropStage1Texture2D: {fileID: 2800000, guid: b2b2b198e37eba347bd8fd56bcdc6271, type: 3}
+  cropStage1PixelsPerUnit: 100
+  cropStage1Rect:
+    serializedVersion: 2
+    x: 64
+    y: 224
+    width: 16
+    height: 16
+  cropStage2Texture2D: {fileID: 2800000, guid: b2b2b198e37eba347bd8fd56bcdc6271, type: 3}
+  cropStage2PixelsPerUnit: 100
+  cropStage2Rect:
+    serializedVersion: 2
+    x: 16
+    y: 224
+    width: 16
+    height: 16
+  cropStage3Texture2D: {fileID: 2800000, guid: b2b2b198e37eba347bd8fd56bcdc6271, type: 3}
+  cropStage3PixelsPerUnit: 100
+  cropStage3Rect:
+    serializedVersion: 2
+    x: 176
+    y: 192
+    width: 16
+    height: 16
+  cropStage4Texture2D: {fileID: 2800000, guid: b2b2b198e37eba347bd8fd56bcdc6271, type: 3}
+  cropStage4PixelsPerUnit: 100
+  cropStage4Rect:
+    serializedVersion: 2
+    x: 96
+    y: 160
+    width: 16
+    height: 16
+  itemYield: 1
+  seedDays: 0
+  stage1Days: 0
+  stage2Days: 0
+  stage3Days: 3
+  numberOfHarvests: 1
+  itemScriptableObject: {fileID: 11400000, guid: 67c72a1a8f3eaa747a8b5efc781469ad, type: 2}
